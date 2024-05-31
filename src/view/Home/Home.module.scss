@@ -1,0 +1,21 @@
+.homeContainer {
+  padding: 1rem;
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  .folderStructure {
+    flex-wrap: wrap;
+    padding-right: 0.4rem;
+    display: flex;
+    gap: 1rem;
+    height: max-content;
+    .folderContainer {
+      padding-right: 1.4rem;
+    }
+    .renderFolderContainer {
+      display: flex;
+      flex-direction: column;
+      //   max-width: 1rem;
+    }
+  }
+}

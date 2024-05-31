@@ -1,0 +1,16 @@
+.SidebarContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: aliceblue;
+  width: 9rem;
+  .sidebarItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
